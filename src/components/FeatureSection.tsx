@@ -24,7 +24,7 @@ const FeatureSection = ({
           <img
             src={imageSrc}
             alt={imageAlt}
-            className="w-full h-[400px] md:h-[550px] object-cover"
+            className="w-full h-[400px] md:h-[550px] object-cover rounded-xl"
             loading="lazy"
           />
         </div>
