@@ -52,6 +52,8 @@ export default {
           foreground: "hsl(var(--card-foreground))",
         },
         "hero-overlay": "hsl(var(--hero-overlay))",
+        "taupe": "hsl(var(--taupe))",
+        "pure-white": "hsl(var(--pure-white))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
