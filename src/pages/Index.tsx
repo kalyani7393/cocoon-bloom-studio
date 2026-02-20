@@ -20,7 +20,7 @@ const Index = () => {
 
       <FeatureSection
         title="TRUSTED ROOTS"
-        description="The support we provide is grounded in real-world experiences of other women and credible data."
+        description="The support you get is grounded in real-world experiences and credible data."
         imageSrc={trustedRoots}
         imageAlt="A woman sitting in a yoga pose"
         imagePosition="right"
