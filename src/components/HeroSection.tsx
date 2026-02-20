@@ -5,7 +5,7 @@ import grandmaAvatar from "@/assets/grandma-avatar.png";
 
 const HeroSection = () => {
   return (
-    <section className="relative w-full h-[75vh] flex flex-col items-center overflow-hidden">
+    <section className="relative w-full h-[88vh] flex flex-col items-center justify-center overflow-hidden">
       {/* Video background */}
       <video
         autoPlay
@@ -21,30 +21,35 @@ const HeroSection = () => {
       {/* Overlay */}
       <div className="absolute inset-0 bg-hero-overlay/25" />
 
-      {/* Top content: avatar, title, subheading - centered */}
-      <div className="relative z-10 w-full flex flex-col items-center text-center mt-8 sm:mt-12">
+      {/* Content */}
+      <div className="relative z-10 w-full max-w-5xl mx-auto px-6 flex flex-col items-start">
+        {/* Grandma avatar above title */}
         <img
           src={grandmaAvatar}
           alt="Grandma avatar illustration"
-          className="w-28 h-28 sm:w-36 sm:h-36 object-contain drop-shadow-xl mb-3"
+          className="w-32 h-32 sm:w-40 sm:h-40 object-contain drop-shadow-xl mb-4"
         />
-        <h1 className="text-5xl sm:text-6xl md:text-7xl font-display font-bold tracking-[0.2em] mb-1" style={{ color: '#857a6a' }}>
+
+        {/* Title */}
+        <h1 className="text-6xl sm:text-7xl md:text-8xl font-display font-light tracking-[0.2em] text-taupe mb-2">
           mygrammie
         </h1>
-        <p className="text-lg sm:text-xl md:text-2xl font-display font-bold tracking-wide italic" style={{ color: '#857a6a' }}>
+
+        {/* Subheading */}
+        <p className="text-pure-white text-lg sm:text-xl md:text-2xl font-display font-light tracking-wide italic mb-10">
           Prevent symptoms, don't just fix them
         </p>
-      </div>
 
-      {/* Bottom content: paragraph + CTA - centered in cloud area */}
-      <div className="relative z-10 w-full flex flex-col items-center text-center mt-auto mb-16 px-6">
-        <p className="text-pure-white text-sm sm:text-base leading-relaxed max-w-md font-body font-bold">
+        {/* Description */}
+        <p className="text-pure-white text-sm sm:text-base leading-relaxed max-w-md font-body">
           Mygrammie is a guide for women to add traditional healing remedies safely to their daily routines. She brings generational wisdom that our ancestors had, but was lost over time.
         </p>
-        <div className="mt-8">
+
+        {/* CTA button */}
+        <div className="mt-10">
           <Link
             to="/coming-soon"
-            className="inline-block px-10 py-4 bg-primary text-pure-white text-sm tracking-[0.15em] font-body font-bold uppercase hover:opacity-90 transition-opacity rounded"
+            className="inline-block px-10 py-4 bg-primary text-pure-white text-sm tracking-[0.15em] font-body uppercase hover:opacity-90 transition-opacity rounded"
           >
             Download
           </Link>
