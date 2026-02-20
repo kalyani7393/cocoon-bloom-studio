@@ -1,13 +1,41 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import HeroSection from "@/components/HeroSection";
+import FeatureSection from "@/components/FeatureSection";
+import QuoteSection from "@/components/QuoteSection";
+import culturalWisdom from "@/assets/cultural-wisdom.jpg";
+import trustedRoots from "@/assets/trusted-roots.jpg";
+import lifelongFriend from "@/assets/lifelong-friend.jpg";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <main className="bg-background">
+      <HeroSection />
+
+      <FeatureSection
+        title="CULTURAL WISDOM"
+        description="Use practices curated from different heritages daily to feel your best: Ayurveda, Traditional Chinese Medicine and more."
+        imageSrc={culturalWisdom}
+        imageAlt="An open book with a flower stem on it"
+        imagePosition="left"
+      />
+
+      <FeatureSection
+        title="TRUSTED ROOTS"
+        description="The support we provide is grounded in real-world experiences of other women and credible data."
+        imageSrc={trustedRoots}
+        imageAlt="A woman sitting in a yoga pose"
+        imagePosition="right"
+      />
+
+      <FeatureSection
+        title="LIFELONG FRIEND"
+        description="You'll be guided through every season of life, from your teen years to menopause and beyond."
+        imageSrc={lifelongFriend}
+        imageAlt="A path in a forest covered with flowers on both sides"
+        imagePosition="left"
+      />
+
+      <QuoteSection />
+    </main>
   );
 };
 
