@@ -54,6 +54,7 @@ export default {
         "hero-overlay": "hsl(var(--hero-overlay))",
         "taupe": "hsl(var(--taupe))",
         "pure-white": "hsl(var(--pure-white))",
+        "warm-brown": "hsl(var(--warm-brown))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",

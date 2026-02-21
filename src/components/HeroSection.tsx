@@ -5,7 +5,7 @@ import grandmaAvatar from "@/assets/grandma-avatar.png";
 
 const HeroSection = () => {
   return (
-    <section className="relative w-full h-[85vh] flex flex-col items-center justify-center overflow-hidden">
+    <section className="relative w-full h-[85vh] flex flex-col items-center justify-start overflow-hidden">
       {/* Video background */}
       <video
         autoPlay
@@ -22,21 +22,21 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-hero-overlay/10" />
 
       {/* Content */}
-      <div className="relative z-10 w-full max-w-5xl mx-auto px-6 flex flex-col items-start">
+      <div className="relative z-10 w-full max-w-5xl mx-auto px-6 pt-16 sm:pt-20 flex flex-col items-start">
         {/* Grandma avatar above title */}
         <img
           src={grandmaAvatar}
           alt="Grandma avatar illustration"
-          className="w-32 h-32 sm:w-40 sm:h-40 object-contain drop-shadow-xl mb-0.5"
+          className="w-16 h-16 sm:w-20 sm:h-20 object-contain drop-shadow-xl -mb-1"
         />
 
         {/* Title */}
-        <h1 className="text-6xl sm:text-7xl md:text-8xl font-display font-light tracking-normal text-pure-white mb-2">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl font-display font-bold tracking-normal text-warm-brown mb-1">
           mygrammie
         </h1>
 
         {/* Subheading */}
-        <p className="text-foreground text-base sm:text-lg md:text-xl font-display font-light tracking-wide italic mb-10">
+        <p className="text-warm-brown text-sm sm:text-base md:text-lg font-display font-light tracking-wide italic mb-10">
           Prevent symptoms, don't just fix them
         </p>
 
