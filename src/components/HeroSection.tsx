@@ -5,7 +5,7 @@ import grandmaAvatar from "@/assets/grandma-avatar.png";
 
 const HeroSection = () => {
   return (
-    <section className="relative w-full h-[80vh] flex flex-col items-center justify-center overflow-hidden">
+    <section className="relative w-full h-[85vh] flex flex-col items-center justify-center overflow-hidden">
       {/* Video background */}
       <video
         autoPlay
@@ -27,7 +27,7 @@ const HeroSection = () => {
         <img
           src={grandmaAvatar}
           alt="Grandma avatar illustration"
-          className="w-32 h-32 sm:w-40 sm:h-40 object-contain drop-shadow-xl mb-2"
+          className="w-32 h-32 sm:w-40 sm:h-40 object-contain drop-shadow-xl mb-1"
         />
 
         {/* Title */}
