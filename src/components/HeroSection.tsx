@@ -27,7 +27,7 @@ const HeroSection = () => {
         <img
           src={grandmaAvatar}
           alt="Grandma avatar illustration"
-          className="w-32 h-32 sm:w-40 sm:h-40 object-contain drop-shadow-xl mb-1"
+          className="w-32 h-32 sm:w-40 sm:h-40 object-contain drop-shadow-xl mb-0.5"
         />
 
         {/* Title */}
@@ -36,13 +36,13 @@ const HeroSection = () => {
         </h1>
 
         {/* Subheading */}
-        <p className="text-foreground text-lg sm:text-xl md:text-2xl font-display font-light tracking-wide italic mb-10">
+        <p className="text-foreground text-base sm:text-lg md:text-xl font-display font-light tracking-wide italic mb-10">
           Prevent symptoms, don't just fix them
         </p>
 
         {/* Description */}
         <p className="text-pure-white text-sm sm:text-base leading-relaxed max-w-md font-body">
-          Mygrammie is a guide for women to add traditional healing remedies safely to their daily routines. She brings generational wisdom that our ancestors had, but was lost over time.
+          Mygrammie guides women on adding traditional healing remedies safely to their daily routines. She brings generational wisdom that our ancestors had, but was lost over time.
         </p>
 
         {/* CTA button */}
