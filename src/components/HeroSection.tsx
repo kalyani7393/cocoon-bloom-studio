@@ -5,7 +5,7 @@ import grandmaAvatar from "@/assets/grandma-avatar.png";
 
 const HeroSection = () => {
   return (
-    <section className="relative w-full h-[88vh] flex flex-col items-center justify-center overflow-hidden">
+    <section className="relative w-full h-[75vh] flex flex-col items-center justify-center overflow-hidden">
       {/* Video background */}
       <video
         autoPlay
@@ -19,7 +19,7 @@ const HeroSection = () => {
       </video>
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-hero-overlay/25" />
+      <div className="absolute inset-0 bg-hero-overlay/10" />
 
       {/* Content */}
       <div className="relative z-10 w-full max-w-5xl mx-auto px-6 flex flex-col items-start">
@@ -31,7 +31,7 @@ const HeroSection = () => {
         />
 
         {/* Title */}
-        <h1 className="text-6xl sm:text-7xl md:text-8xl font-display font-light tracking-[0.2em] text-taupe mb-2">
+        <h1 className="text-6xl sm:text-7xl md:text-8xl font-display font-light tracking-normal text-taupe mb-2">
           mygrammie
         </h1>
 
