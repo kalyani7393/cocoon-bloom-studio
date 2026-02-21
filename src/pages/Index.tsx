@@ -16,6 +16,7 @@ const Index = () => {
         imageSrc={culturalWisdom}
         imageAlt="An open book with a flower stem on it"
         imagePosition="left"
+        className="mt-10 md:mt-12"
       />
 
       <FeatureSection
@@ -24,6 +25,7 @@ const Index = () => {
         imageSrc={trustedRoots}
         imageAlt="A woman sitting in a yoga pose"
         imagePosition="right"
+        className="mt-3 md:mt-3"
       />
 
       <FeatureSection
@@ -32,9 +34,12 @@ const Index = () => {
         imageSrc={lifelongFriend}
         imageAlt="A path in a forest covered with flowers on both sides"
         imagePosition="left"
+        className="mt-3 md:mt-3"
       />
 
-      <QuoteSection />
+      <div className="mt-10 md:mt-12">
+        <QuoteSection />
+      </div>
     </main>
   );
 };

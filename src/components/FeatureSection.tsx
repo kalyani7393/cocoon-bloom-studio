@@ -1,9 +1,12 @@
+import { cn } from "@/lib/utils";
+
 interface FeatureSectionProps {
   title: string;
   description: string;
   imageSrc: string;
   imageAlt: string;
   imagePosition?: "left" | "right";
+  className?: string;
 }
 
 const FeatureSection = ({
@@ -12,11 +15,12 @@ const FeatureSection = ({
   imageSrc,
   imageAlt,
   imagePosition = "left",
+  className,
 }: FeatureSectionProps) => {
   return (
-    <section className="py-5 md:py-8 px-6">
+    <section className={cn("py-5 md:py-8 px-6", className)}>
       <div
-        className={`max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-center ${
+        className={`max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-20 items-center ${
           imagePosition === "right" ? "md:[direction:rtl]" : ""
         }`}
       >
