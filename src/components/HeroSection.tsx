@@ -5,7 +5,7 @@ import grandmaAvatar from "@/assets/grandma-avatar.png";
 
 const HeroSection = () => {
   return (
-    <section className="relative w-full h-[75vh] flex flex-col items-center justify-center overflow-hidden">
+    <section className="relative w-full h-[80vh] flex flex-col items-center justify-center overflow-hidden">
       {/* Video background */}
       <video
         autoPlay
@@ -27,16 +27,16 @@ const HeroSection = () => {
         <img
           src={grandmaAvatar}
           alt="Grandma avatar illustration"
-          className="w-32 h-32 sm:w-40 sm:h-40 object-contain drop-shadow-xl mb-4"
+          className="w-32 h-32 sm:w-40 sm:h-40 object-contain drop-shadow-xl mb-2"
         />
 
         {/* Title */}
-        <h1 className="text-6xl sm:text-7xl md:text-8xl font-display font-light tracking-normal text-taupe mb-2">
+        <h1 className="text-6xl sm:text-7xl md:text-8xl font-display font-light tracking-normal text-pure-white mb-2">
           mygrammie
         </h1>
 
         {/* Subheading */}
-        <p className="text-pure-white text-lg sm:text-xl md:text-2xl font-display font-light tracking-wide italic mb-10">
+        <p className="text-foreground text-lg sm:text-xl md:text-2xl font-display font-light tracking-wide italic mb-10">
           Prevent symptoms, don't just fix them
         </p>
 
