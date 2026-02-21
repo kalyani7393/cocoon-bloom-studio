@@ -9,10 +9,11 @@ const QuoteSection = () => {
         </blockquote>
         <Link
           to="/coming-soon"
-          className="inline-block px-8 py-3 bg-primary-foreground text-primary text-sm tracking-wider font-body hover:opacity-90 transition-opacity"
+          className="inline-block px-8 py-3 bg-primary-foreground text-primary text-sm tracking-wider font-body hover:opacity-90 transition-opacity rounded"
         >
           Download
         </Link>
+
       </div>
     </section>
   );
