@@ -27,6 +27,8 @@ jobs:
 
       - run: npm ci
       - run: npm run build
+      - run: ls -la dist
+- run: sed -n '1,40p' dist/index.html
 
       - uses: actions/upload-pages-artifact@v3
         with:
