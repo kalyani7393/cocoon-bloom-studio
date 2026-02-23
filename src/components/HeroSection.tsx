@@ -22,7 +22,7 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-hero-overlay/10" />
 
       {/* Content */}
-      <div className="relative z-10 w-full max-w-5xl mx-auto px-6 pt-16 md:pt-4 lg:pt-4 flex flex-col items-start">
+      <div className="relative z-10 w-full max-w-5xl mx-auto px-6 pt-16 md:pt-4 lg:pt-16 flex flex-col items-start">
         {/* Top group: avatar + title + subheading */}
         <div>
           <img
@@ -30,7 +30,7 @@ const HeroSection = () => {
             alt="Grandma avatar illustration"
             className="w-20 h-20 md:w-16 md:h-16 lg:w-16 lg:h-16 object-contain drop-shadow-xl -mb-1"
           />
-          <h1 className="text-5xl md:text-5xl lg:text-6xl font-display font-bold tracking-normal text-warm-brown mb-1">
+          <h1 className="text-5xl md:text-5xl lg:text-6xl font-display font-bold tracking-normal text-foreground mb-1">
             mygrammie
           </h1>
           <p className="text-foreground text-base md:text-sm lg:text-sm font-display font-light tracking-wide italic">
@@ -39,7 +39,7 @@ const HeroSection = () => {
         </div>
 
         {/* Bottom group: paragraph + CTA */}
-        <div className="mt-[288px] md:mt-36 lg:mt-28">
+        <div className="mt-[96px] md:mt-12 lg:mt-28">
           <p className="text-pure-white text-sm sm:text-base leading-relaxed max-w-md font-body">
             Mygrammie guides women on adding traditional healing remedies safely to their daily routines. She brings generational wisdom that our ancestors had, but was lost over time.
           </p>
