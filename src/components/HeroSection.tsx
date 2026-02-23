@@ -22,7 +22,7 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-hero-overlay/10" />
 
       {/* Content */}
-      <div className="relative z-10 w-full max-w-5xl mx-auto px-6 pt-28 md:pt-16 lg:pt-28 flex flex-col items-start">
+      <div className="relative z-10 w-full max-w-5xl mx-auto px-6 pt-[93px] md:pt-[45px] lg:pt-[93px] flex flex-col items-start">
         {/* Top group: avatar + title + subheading */}
         <div>
           <img
@@ -39,7 +39,7 @@ const HeroSection = () => {
         </div>
 
         {/* Bottom group: paragraph + CTA */}
-        <div className="mt-[192px] md:mt-24 lg:mt-52">
+        <div className="mt-[120px] md:mt-2 lg:mt-[136px]">
           <p className="text-pure-white text-sm sm:text-base leading-relaxed max-w-md font-body">
             Mygrammie guides women on adding traditional healing remedies safely to their daily routines. She brings generational wisdom that our ancestors had, but was lost over time.
           </p>
