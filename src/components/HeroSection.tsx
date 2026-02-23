@@ -39,7 +39,7 @@ const HeroSection = () => {
         </div>
 
         {/* Bottom group: paragraph + CTA */}
-        <div className="mt-[96px] md:mt-12 lg:mt-28">
+        <div className="mt-[96px] md:mt-0 lg:mt-28">
           <p className="text-pure-white text-sm sm:text-base leading-relaxed max-w-md font-body">
             Mygrammie guides women on adding traditional healing remedies safely to their daily routines. She brings generational wisdom that our ancestors had, but was lost over time.
           </p>
