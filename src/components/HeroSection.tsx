@@ -22,7 +22,7 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-hero-overlay/10" />
 
       {/* Content */}
-      <div className="relative z-10 w-full max-w-5xl mx-auto px-6 pt-[93px] md:pt-0 lg:pt-[93px] flex flex-col items-start">
+      <div className="relative z-10 w-full max-w-5xl mx-auto px-6 pt-[93px] md:pt-[45px] lg:pt-[93px] flex flex-col items-start">
         {/* Top group: avatar + title + subheading */}
         <div>
           <img
