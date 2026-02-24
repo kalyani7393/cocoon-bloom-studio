@@ -13,7 +13,7 @@ const HeroSection = () => {
         muted
         playsInline
         poster={heroCloudsFallback}
-        className="absolute inset-0 w-full h-full object-contain bg-black"
+        className="absolute inset-0 w-full h-full object-cover object-bottom"
       >
         <source src={heroVideo} type="video/mp4" />
       </video>
