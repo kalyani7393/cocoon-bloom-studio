@@ -5,7 +5,7 @@ import grandmaAvatar from "@/assets/grandma-avatar.png";
 
 const HeroSection = () => {
   return (
-    <section className="relative w-full h-[85vh] md:h-[calc(85vh-48px)] lg:h-[calc(85vh-96px)] flex flex-col items-center justify-start overflow-hidden">
+    <section className="relative w-full h-[85vh] flex flex-col items-center justify-start overflow-hidden">
       {/* Video background */}
       <video
         autoPlay
@@ -13,7 +13,7 @@ const HeroSection = () => {
         muted
         playsInline
         poster={heroCloudsFallback}
-        className="absolute inset-0 w-full h-full object-cover object-top"
+        className="absolute inset-0 w-full h-full object-cover object-bottom"
       >
         <source src={heroVideo} type="video/mp4" />
       </video>
@@ -28,12 +28,12 @@ const HeroSection = () => {
           <img
             src={grandmaAvatar}
             alt="Grandma avatar illustration"
-            className="w-20 h-20 md:w-16 md:h-16 lg:w-16 lg:h-16 lg:scale-[1.3] lg:origin-left object-contain drop-shadow-xl -mb-1"
+            className="w-20 h-20 md:w-16 md:h-16 lg:w-16 lg:h-16 lg:origin-left object-contain drop-shadow-xl -mb-1"
           />
-          <h1 className="text-5xl md:text-5xl lg:text-6xl lg:scale-[1.3] lg:origin-left inline-block font-display font-bold tracking-normal text-warm-brown mb-1">
+          <h1 className="text-5xl lg:text-6xl font-display font-bold tracking-normal text-warm-brown mb-1">
             mygrammie
           </h1>
-          <p className="text-foreground text-base md:text-sm lg:text-sm lg:scale-[1.3] lg:origin-left inline-block font-display font-light tracking-wide italic">
+          <p className="text-foreground text-base md:text-sm lg:text-sm lg:origin-left inline-block font-display font-light tracking-wide italic">
             Prevent symptoms, don't just fix them
           </p>
         </div>
