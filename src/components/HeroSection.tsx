@@ -26,9 +26,9 @@ const HeroSection = () => {
 
           {/* Content */}
           <div className="relative z-10 h-full w-full">
-            <div className="h-full w-full max-w-6xl mx-auto px-6 py-10 flex flex-col justify-between">
+            <div className="h-full w-full max-w-6xl mx-auto px-6 py-10 flex flex-col justify-between items-center text-center">
               {/* Top group */}
-              <div>
+              <div className="flex flex-col items-center">
                 <img
                   src={grandmaAvatar}
                   alt="Grandma avatar illustration"
@@ -46,11 +46,11 @@ const HeroSection = () => {
 
               {/* Bottom group */}
               <div className="pb-10 lg:pb-20">
-                <p className="text-pure-white text-sm sm:text-base leading-relaxed max-w-md font-body">
+                <p className="text-pure-white text-sm sm:text-base leading-relaxed max-w-md mx-auto font-body">
                   Mygrammie guides women on adding traditional healing remedies safely to their daily routines. She brings generational wisdom that our ancestors had, but was lost over time.
                 </p>
 
-                <div className="mt-10">
+                <div className="mt-10 flex justify-center">
                   <Link
                     to="/coming-soon"
                     className="inline-block px-7 py-3 text-xs md:px-8 md:py-3 md:text-xs lg:px-10 lg:py-4 lg:text-sm bg-primary text-pure-white tracking-[0.15em] font-body uppercase hover:opacity-90 transition-opacity rounded"
