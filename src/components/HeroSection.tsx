@@ -28,18 +28,18 @@ const HeroSection = () => {
           <img
             src={grandmaAvatar}
             alt="Grandma avatar illustration"
-            className="w-20 h-20 md:w-16 md:h-16 lg:w-16 lg:h-16 object-contain drop-shadow-xl -mb-1"
+            className="w-20 h-20 md:w-16 md:h-16 lg:w-16 lg:h-16 lg:scale-[1.3] lg:origin-left object-contain drop-shadow-xl -mb-1"
           />
-          <h1 className="text-5xl md:text-5xl lg:text-6xl font-display font-bold tracking-normal text-foreground mb-1">
+          <h1 className="text-5xl md:text-5xl lg:text-6xl lg:scale-[1.3] lg:origin-left inline-block font-display font-bold tracking-normal text-warm-brown mb-1">
             mygrammie
           </h1>
-          <p className="text-foreground text-base md:text-sm lg:text-sm font-display font-light tracking-wide italic">
+          <p className="text-foreground text-base md:text-sm lg:text-sm lg:scale-[1.3] lg:origin-left inline-block font-display font-light tracking-wide italic">
             Prevent symptoms, don't just fix them
           </p>
         </div>
 
         {/* Bottom group: paragraph + CTA */}
-        <div className="mt-[168px] md:mt-14 lg:mt-[92px]">
+        <div className="mt-[288px] md:mt-36 lg:mt-[352px]">
           <p className="text-pure-white text-sm sm:text-base leading-relaxed max-w-md font-body">
             Mygrammie guides women on adding traditional healing remedies safely to their daily routines. She brings generational wisdom that our ancestors had, but was lost over time.
           </p>
