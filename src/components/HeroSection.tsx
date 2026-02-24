@@ -6,7 +6,7 @@ import grandmaAvatar from "@/assets/grandma-avatar.png";
 const HeroSection = () => {
   return (
     <section className="w-full bg-background pt-6">
-      <div className="relative mx-auto w-full max-w-6xl px-4">
+      <div className="relative mx-auto w-full max-w-6xl px-4 lg:max-w-7xl xl:max-w-[1200px] 2xl:max-w-[1400px]">
         {/* Rounded hero container */}
         <div className="relative h-[85vh] rounded-[28px] overflow-hidden">
           {/* Video background */}
