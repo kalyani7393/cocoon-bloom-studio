@@ -46,7 +46,7 @@ const HeroSection = () => {
 
               {/* Bottom group */}
               <div className="w-full pb-12">
-                <p className="text-pure-white text-sm md:text-sm lg:text-base leading-relaxed md:leading-snug max-w-md md:max-w-[500px] lg:max-w-[580px] mx-auto font-body text-center">
+                <p className="text-pure-white text-sm md:text-[16px] leading-relaxed md:leading-snug max-w-md md:max-w-[480px] lg:max-w-[580px] mx-auto font-body text-center">
                   Mygrammie guides women on adding traditional healing remedies safely to their daily routines. She brings generational wisdom that our ancestors had, but was lost over time.
                 </p>
 
