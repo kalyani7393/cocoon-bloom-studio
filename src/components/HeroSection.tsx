@@ -8,7 +8,7 @@ const HeroSection = () => {
     <section className="w-full bg-background pt-6">
       <div className="relative mx-auto w-full px-4 lg:px-6 xl:px-10">
         {/* Rounded hero container */}
-        <div className="relative h-auto min-h-[520px] sm:min-h-[620px] lg:h-[85vh] rounded-[28px] overflow-hidden">
+        <div className="relative h-[clamp(520px,70vh,760px)] lg:h-[clamp(620px,85vh,820px)] rounded-[28px] overflow-hidden">
           {/* Video background */}
           <video
             autoPlay
