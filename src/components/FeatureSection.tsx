@@ -25,11 +25,11 @@ const FeatureSection = ({
         }`}
       >
 <div className={imagePosition === "right" ? "md:[direction:ltr]" : ""}>
-  <div className="w-full h-[400px] md:h-[350px] lg:h-[550px] rounded-xl overflow-hidden bg-black/5">
+  <div className="w-full aspect-[2/3] rounded-xl overflow-hidden">
     <img
       src={imageSrc}
       alt={imageAlt}
-      className="w-full h-[calc(100%+96px)] translate-y-[-48px] object-contain object-center"
+      className="w-full h-full object-cover object-center"
       loading="lazy"
     />
   </div>
