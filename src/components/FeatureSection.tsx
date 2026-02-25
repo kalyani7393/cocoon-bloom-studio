@@ -29,7 +29,7 @@ const FeatureSection = ({
     <img
       src={imageSrc}
       alt={imageAlt}
-      className="w-full h-full object-cover object-center"
+      className="w-full h-[calc(100%+96px)] translate-y-[-48px] object-cover object-center"
       loading="lazy"
     />
   </div>
