@@ -25,13 +25,15 @@ const FeatureSection = ({
         }`}
       >
 <div className={imagePosition === "right" ? "md:[direction:ltr]" : ""}>
-  <div className="w-full h-[400px] md:h-[350px] lg:h-[550px] rounded-xl overflow-hidden">
-    <img
-      src={imageSrc}
-      alt={imageAlt}
-      className="w-full h-[calc(100%+96px)] translate-y-[-48px] object-cover object-center"
-      loading="lazy"
-    />
+  <div className="mx-auto w-full max-w-[520px] md:max-w-none md:w-full">
+    <div className="w-full h-[320px] md:h-[350px] lg:h-[550px] rounded-xl overflow-hidden">
+      <img
+        src={imageSrc}
+        alt={imageAlt}
+        className="w-full h-[calc(100%+96px)] translate-y-[-48px] object-cover object-center"
+        loading="lazy"
+      />
+    </div>
   </div>
 </div>
         <div className={`space-y-6 ${imagePosition === "right" ? "md:[direction:ltr]" : ""}`}>
