@@ -28,7 +28,7 @@ const HeroSection = () => {
           <div className="relative z-10 h-full w-full">
             <div className="h-full w-full max-w-6xl mx-auto px-6 py-10 flex flex-col justify-between items-center text-center">
               {/* Top group */}
-              <div className="flex flex-col items-center">
+              <div className="flex flex-col items-center md:mt-12 md:scale-[1.2] md:origin-top">
                 <img
                   src={grandmaAvatar}
                   alt="Grandma avatar illustration"
