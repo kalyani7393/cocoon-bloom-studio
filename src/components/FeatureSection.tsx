@@ -24,18 +24,14 @@ const FeatureSection = ({
           imagePosition === "right" ? "md:[direction:rtl]" : ""
         }`}
       >
-<div className={imagePosition === "right" ? "md:[direction:ltr]" : ""}>
-  <div className="mx-auto w-full max-w-[520px] md:max-w-none md:w-full">
-    <div className="w-full h-[260px] md:h-[350px] lg:h-[550px] rounded-xl overflow-hidden bg-[#e9e1d6]">
-      <img
-        src={imageSrc}
-        alt={imageAlt}
-        className="w-full h-full object-contain object-center"
-        loading="lazy"
-      />
-    </div>
-  </div>
-</div>
+  <div className={imagePosition === "right" ? "md:[direction:ltr]" : ""}>
+          <img
+            src={imageSrc}
+            alt={imageAlt}
+            className="w-full h-auto max-h-[550px] object-contain rounded-xl"
+            loading="lazy"
+          />
+        </div>
         <div className={`space-y-6 ${imagePosition === "right" ? "md:[direction:ltr]" : ""}`}>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-display font-light tracking-wide text-foreground">
             {title}
