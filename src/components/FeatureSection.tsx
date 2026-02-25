@@ -26,14 +26,14 @@ const FeatureSection = ({
       >
 <div className={imagePosition === "right" ? "md:[direction:ltr]" : ""}>
   <div className="mx-auto w-full max-w-md md:max-w-none">
-    <div className="w-full h-[320px] md:h-[350px] lg:h-[550px] rounded-xl overflow-hidden">
-      <img
-        src={imageSrc}
-        alt={imageAlt}
-        className="w-full h-[calc(100%+96px)] translate-y-[-48px] object-cover object-center"
-        loading="lazy"
-      />
-    </div>
+   <div className="w-full h-[260px] md:h-[350px] lg:h-[550px] rounded-xl overflow-hidden">
+  <img
+    src={imageSrc}
+    alt={imageAlt}
+    className="w-full h-full object-cover object-center"
+    loading="lazy"
+  />
+</div>
   </div>
 </div>
         <div className={`space-y-6 ${imagePosition === "right" ? "md:[direction:ltr]" : ""}`}>
