@@ -16,13 +16,13 @@ const HeroSection = () => {
             muted
             playsInline
             poster={heroCloudsFallback}
-            className="absolute inset-0 w-full h-full object-cover object-bottom"
+            className="absolute inset-0 w-full h-full object-cover object-[50%_20%]"
           >
             <source src={heroVideo} type="video/mp4" />
           </video>
 
           {/* Overlay */}
-          <div className="absolute inset-0 bg-hero-overlay/10" />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/25 via-black/5 to-transparent" />
 
           {/* Content */}
           <div className="relative z-10 h-full w-full">
