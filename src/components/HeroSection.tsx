@@ -26,7 +26,7 @@ const HeroSection = () => {
 
           {/* Content */}
           <div className="relative z-10 h-full w-full">
-            <div className="h-full w-full max-w-6xl mx-auto px-6 py-10 flex flex-col justify-between items-center text-center lg:-translate-y-24">
+            <div className="h-full w-full max-w-6xl mx-auto px-6 py-10 flex flex-col justify-between items-center text-center lg:-translate-y-24 lg:pt-16">
               {/* Top group */}
               <div className="flex flex-col items-center md:mt-12 md:scale-[1.2] md:origin-top">
                 <img
