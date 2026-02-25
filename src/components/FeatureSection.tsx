@@ -33,7 +33,7 @@ const FeatureSection = ({
           />
         </div>
         <div className={`space-y-6 ${imagePosition === "right" ? "md:[direction:ltr]" : ""}`}>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-display font-light tracking-normal text-foreground">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-display font-light tracking-wide text-foreground">
             {title}
           </h2>
           <div className="w-16 h-[2px] bg-accent" />
