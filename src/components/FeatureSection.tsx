@@ -25,8 +25,8 @@ const FeatureSection = ({
         }`}
       >
 <div className={imagePosition === "right" ? "md:[direction:ltr]" : ""}>
-  <div className="w-full max-w-[420px] mx-auto md:max-w-none rounded-xl overflow-hidden bg-transparent">
-    <div className="relative w-full aspect-[4/3] md:aspect-[4/3] lg:aspect-[4/3]">
+  <div className="w-full max-w-[420px] mx-auto md:max-w-none rounded-xl overflow-hidden">
+    <div className="relative w-full aspect-[3/4]">
       <img
         src={imageSrc}
         alt={imageAlt}
