@@ -11,7 +11,7 @@ const Index = () => {
       <HeroSection />
 
       <FeatureSection
-        title="CULTURAL WISDO"
+        title="CULTURAL WISDOM"
         description="Use practices curated from different heritages daily to feel your best: Ayurveda, Traditional Chinese Medicine and more."
         imageSrc={culturalWisdom}
         imageAlt="An open book with a flower stem on it"
