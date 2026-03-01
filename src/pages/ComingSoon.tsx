@@ -15,14 +15,14 @@ const handleSubmit = async (e: React.FormEvent) => {
 
   setLoading(true);
   try {
-    const res = await fetch(APPS_SCRIPT_URL, {
+    const params = new URLSearchParams();
+    params.set("email", cleanedEmail);
+   const res = await fetch(APPS_SCRIPT_URL, {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ email: cleanedEmail }),
+      body: params,
     });
 
     const data = await res.json().catch(() => ({}));
-
     if (!res.ok || data.ok === false) {
       throw new Error(data?.error || `Request failed: ${res.status}`);
     }
@@ -36,7 +36,6 @@ const handleSubmit = async (e: React.FormEvent) => {
     setLoading(false);
   }
 };
-
   return (
     <main className="min-h-screen">
       <section className="min-h-[50vh] bg-primary flex items-end pb-16 px-6 md:px-16">
