@@ -12,7 +12,7 @@ const Index = () => {
 
       <FeatureSection
         title="CULTURAL WISDOM"
-        description="Use practices curated from different heritages daily to feel your best: Ayurveda, Traditional Chinese Medicine and more."
+        description="Women across cultures have managed their health for centuries. Mygrammie draws on that collective knowledge, from Ayurveda to Traditional Chinese Medicine, and brings it to your daily life."
         imageSrc={culturalWisdom}
         imageAlt="An open book with a flower stem on it"
         imagePosition="left"
@@ -21,7 +21,7 @@ const Index = () => {
 
       <FeatureSection
         title="TRUSTED ROOTS"
-        description="The support you get is grounded in real-world experiences and credible data."
+        description="Every recommendation is backed by a combination of research, ancestral tradition, and the real experiences of women who have been through the same thing."
         imageSrc={trustedRoots}
         imageAlt="A woman sitting in a yoga pose"
         imagePosition="right"
@@ -30,7 +30,7 @@ const Index = () => {
 
       <FeatureSection
         title="LIFELONG FRIEND"
-        description="You'll be guided through every season of life, from your teen years to menopause and beyond."
+        description="Your body changes, and so does what it needs. Mygrammie stays with you through every stage, from your first cycle to perimenopause and beyond."
         imageSrc={lifelongFriend}
         imageAlt="A path in a forest covered with flowers on both sides"
         imagePosition="left"
