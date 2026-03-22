@@ -5,7 +5,7 @@ const QuoteSection = () => {
     <section className="py-24 md:py-36 px-6 bg-primary">
       <div className="max-w-3xl mx-auto text-center space-y-10">
         <blockquote className="text-xl sm:text-2xl md:text-3xl font-display font-light leading-relaxed text-primary-foreground italic">
-          "Warm and supportive care is central to our well being. Mygrammie brings it back home to you."
+          "Somewhere along the way, healing lost its warmth. Mygrammie brings it back home to you."
         </blockquote>
         <Link
           to="/coming-soon"
