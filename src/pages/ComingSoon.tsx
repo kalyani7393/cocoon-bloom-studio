@@ -41,10 +41,10 @@ const handleSubmit = async (e: React.FormEvent) => {
       <section className="min-h-[50vh] bg-primary flex items-end pb-16 px-6 md:px-16">
         <div className="max-w-xl space-y-6">
           <span className="inline-block px-3 py-1 border border-accent text-accent text-xs tracking-widest font-body uppercase">
-            Coming Soon
+            Coming soon
           </span>
           <p className="text-primary-foreground/85 text-base sm:text-lg leading-relaxed font-body">
-            We're working on making Cocoon available in your region. Please sign up with your email below to know when she's here.
+            Mygrammie is on her way. Sign up below and we will let you know the moment she is ready for you.
           </p>
           {submitted ? (
             <p className="text-accent text-sm font-body">Thank you! We'll be in touch.</p>
