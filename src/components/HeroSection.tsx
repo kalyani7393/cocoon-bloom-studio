@@ -47,7 +47,7 @@ const HeroSection = () => {
               {/* Bottom group */}
               <div className="w-full pb-12 md:-translate-y-6 lg:translate-y-[48px]">
                 <p className="text-pure-white text-sm md:text-[18px] leading-relaxed md:leading-snug max-w-md md:max-w-[480px] lg:max-w-[580px] mx-auto font-body text-center">
-                  Mygrammie guides you through your symptoms with traditional remedies backed by research and the lived experience of women who've been exactly where you are.
+                  Mygrammie guides perimenopausal women through their symptoms with traditional remedies backed by research and the lived experience of other women.
                 </p>
 
                 <div className="mt-10 flex justify-center">
